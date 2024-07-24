@@ -3,13 +3,16 @@
 	<lang="en-nz">
 	
 	<head>
+
+    <link href="./style.css" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Sevillana&display=swap" rel="stylesheet">
 <meta charset="UTF-8">
 <title>Pollys Travel Blog</title>
 	</head>
 	<body>
 		<h1>Pollys Travel Blog</h1>
 		<nav>
-			<h2>Navigation Menu</h2>
+			<h2 class="first">Navigation Menu</h2>
 			<ul>
 				<li><a href="#!">Home</a></li>
 				<li><a href = "stories.html">Stories</a></li>
@@ -18,14 +21,48 @@
 		</nav>
 		<main>
 			<section>
-				<h2>Polly the Penguin's photo!</h2>
-				<img src="polly.jpg" alt="Photo of Polly">
+				<h2 class="second">Polly the Penguin's photo!</h2>
+				<img class="polly" src="polly.jpg" alt="Photo of Polly">
 				<p>Stories about my life as a Penguin</p>
 			</section>
 			<section>
-				<h2>Leaving Home</h2>
+				<h2 class="'third">Leaving Home</h2>
 				<p>Today I travel for Antarcitc!</p>
 				<p> I will bring my faviourite Scarf</p>
+			</section>
+			<section>
+				<figure>
+					<img src="polly.jpg" id = first alt="Photo of Polly">
+					<figcaption id = caption1>blur(5px);</figcaption>
+				</figure>
+				<figure>
+					<img src="polly.jpg" id = second alt="Photo of Polly">
+					<figcaption id = caption8>grayscale(80%);</figcaption>
+				</figure>
+				<figure>
+					<img src="polly.jpg" id= third alt="Photo of Polly">
+					<figcaption id = caption2>brightness(80%) contrast(250%);</figcaption>
+				</figure>
+				<figure>
+					<img src="polly.jpg" id= fourth alt="Photo of Polly">
+					<figcaption id = caption3>hue-rotate(50deg);</figcaption>
+				</figure>
+				<figure>
+					<img src="polly.jpg" id = fifth alt="Photo of Polly">
+					<figcaption id = caption4>invert(80%);</figcaption>
+				</figure>
+				<figure>
+					<img src="polly.jpg" id=" sixth" alt="Photo of Polly">
+					<figcaption id = caption5 >sepia(80%);</figcaption>
+				</figure>
+				<figure>
+					<img src="polly.jpg" id = seventh alt="Photo of Polly">
+					<figcaption id = caption6>saturate(200%);</figcaption>
+				</figure>
+				<figure>
+					<img src="polly.jpg" id="eigth" alt="Photo of Polly">
+					<figcaption id = caption7>invert() sepia() saturate(500%) hue-rotate(50deg);</figcaption>
+				</figure>
 			</section>
 		</main>
 		<footer>

@@ -1,0 +1,203 @@
+* {
+    /* border: 2px solid red;
+    margin: 10px; */
+}
+
+header {
+    position: relative;
+    height: 10px;
+}
+h1 {
+    position: absolute;
+    left: 10px;
+    top: 5px;
+}
+
+h2 {
+color: yellow;
+}
+
+/* p{
+color: violet;
+} */
+
+a{
+color: tomato;
+}
+body{
+background: violet;
+}
+
+
+header{
+background: whitesmoke;
+}
+nav{
+background: rgb(red, yellow, blue);
+}
+
+footer {
+    text-align: center;
+    color: black;
+    padding: 25px
+}
+
+figure{
+    display: inline-block;
+}
+
+.first {
+    color: aqua;
+    font-size: medium;
+    font-style: oblique;
+    text-shadow: 5px 5px;
+    margin-top: 100px;
+
+}
+
+.second {
+    color: yellow;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-display: red;
+}
+
+.third {
+    color: burlywood;
+    font-style: italic;
+    animation: infinite;
+}
+
+.polly {
+    margin: 20px;
+    border-width: 2px;
+    height: 120;
+    /* border-style:double;
+    border-color: tomato;
+    border-radius: 2px;
+    object-fit: cover; */
+    display: block;
+    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 16px 4px 40px 4px rgb(75, 14, 219);
+
+}
+
+#first{
+filter: blur(5px);
+
+}
+
+#caption1 {
+    position: relative;
+    text-align: center;
+    padding: 5px;
+    color: yellow;
+    border: 5px solid #000;
+    padding: 5px;
+    border-radius: 50px;
+ 
+}
+
+#caption2 {
+    position: relative;
+    text-align: center;
+    padding: 5px;
+    color: yellow;
+    border: 5px solid #000;
+    padding: 5px;
+    border-radius: 50px;
+ 
+}
+#caption3 {
+    position: relative;
+    text-align: center;
+    padding: 5px;
+    color: yellow;
+    font-style: inherit;
+    border: 5px solid #000;
+    padding: 5px;
+    border-radius: 50px;
+ 
+}
+
+#caption4 {
+    position: relative;
+    text-align: center;
+    padding: 5px;
+    color: yellow;
+    border: 5px solid #000;
+    padding: 5px;
+    border-radius: 50px;
+ 
+}
+
+#caption5 {
+    position: relative;
+    text-align: center;
+    padding: 5px;
+    color: yellow;
+    border: 5px solid #000;
+    padding: 5px;
+    border-radius: 50px;
+ 
+}
+
+#caption6 {
+    position: relative;
+    text-align: center;
+    padding: 5px;
+    color: yellow;
+    border: 5px solid #000;
+    padding: 5px;
+    border-radius: 50px;
+ 
+}
+
+#caption7 {
+    position: relative;
+    text-align: center;
+    color: yellow;
+    border: 5px solid #000;
+    padding: 5px;
+    border-radius: 50px;
+}
+
+#caption8 {
+    position: relative;
+    text-align: center;
+    padding: 5px;
+    color: yellow;
+    border: 5px solid #000;
+    padding: 5px;
+    border-radius: 50px;
+ 
+}
+
+#second {
+    filter: grayscale(80%);
+}
+
+#third {
+    filter: brightness(80%) contrast(250%);
+}
+
+#fourth{
+    filter: hue-rotate(50deg);
+}
+
+#fifth {
+    filter: invert(80%);
+}
+
+#sixth {
+    filter: sepia(80%);
+}
+
+#seventh{
+    filter: saturate(200%);
+}
+
+#eigth{
+    filter: invert() sepia();
+}
